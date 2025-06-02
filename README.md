@@ -6,5 +6,5 @@ snov.io credentials: https://app.snov.io/account/api
 
 upload csv file in format like
 
-google,google.com
+google,google.com \
 snov,snov.io
