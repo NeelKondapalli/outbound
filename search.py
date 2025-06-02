@@ -26,9 +26,9 @@ def get_all_emails(domain):
     params = {
         "domain": domain,
         "type": "all",
-        "limit": 20,
+        "limit": 15,
         "access_token": ACCESS_TOKEN,
-        "positions[]": ['CEO', 'CFO', 'CTO', 'COO', 'CMO', 'President', 'Vice President', 'Director', 'Manager', 'VP', 'Software Developer']
+        "positions[]": ['CEO', 'CFO', 'CTO', 'COO', 'CMO', 'President', 'Vice President', 'Director', 'Manager', 'VP', 'GTM', 'Growth', 'Marketing']
     }
     try:
         response = requests.get(url, params=params)
